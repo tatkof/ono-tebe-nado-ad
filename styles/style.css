@@ -23,13 +23,13 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 110px 50px 90px 50px ;
+    padding: 92px 50px 90px 50px ;
 }
 
 .header__links-list {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 32px;
  
     text-transform: lowercase;
     list-style: circle;
@@ -74,14 +74,15 @@
     word-spacing: 24px;
     /*  */
     justify-content: space-between;
-    min-height: 756px ;
+    min-height: 757px ;
     color: var(--color-light);
     background-color: #1b1530;
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
+    gap: 0px;
 
-    padding: 164px 50px;
+    padding: 160px 51px 50px 50px;
 }
 
 .cover__title {
@@ -89,7 +90,7 @@
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 133%;
     text-transform: uppercase;
 
 }
@@ -126,13 +127,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 107px;
+    gap: 100px;
 }
 
 .cover__description-text {
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 19px;
     font-weight: 400;
 }
 
@@ -162,12 +163,12 @@
 
 /* lots */
 .lots {
-    padding: 180px 24px 120px;
+    padding: 184px 24px 120px ;
     /* flex-wrap: wrap; */
 }
 
 .lots__heading {
-    margin-bottom: 27px;
+    margin-bottom: 30px;
     padding-left: 40px;
     font-size: 40px;
     line-height: 100%;
@@ -270,8 +271,8 @@
 
     display: grid;
     grid-template-columns: 334px 1fr;
-    column-gap: 72px;
-    padding: 29px 22px ;
+    column-gap: 26px;
+    padding: 35px 25px ;
 }
 
 .about__column {
@@ -295,7 +296,7 @@
 }
 
 .about__title {
-    margin: 100px 0px 100px 0px;
+    margin: 106px 0px 100px;
     font-size: 40px;
     line-height: 100%;
     text-transform: uppercase;
@@ -314,13 +315,21 @@
     /* height: 294px; */
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
-    align-items: center;
-    padding: 96px 50px;
+    /* align-items: center; */
+    padding: 148px 50px;
 }
 
 .footer__address {
     max-width: 240px;
     /* justify-self: end; */
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+
 }
 
 .footer__menu-list {
@@ -328,6 +337,13 @@
     flex-direction: column;
     align-items: center;
     line-height: 22px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 22.3px;
+    letter-spacing: 0%; 
+
 }
 
 .footer__menu-link_active {
