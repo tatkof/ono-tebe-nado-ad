@@ -1,3 +1,10 @@
+:root {
+  --color-text: #000000;
+  --color-light: #ffffff;
+  --color-overlay: rgba(0, 0, 0, 0.5);
+  --font-main: "Raleway", Arial, sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +14,13 @@
 body {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
   font-family: Raleway, sans-serif;
+  /* font-size: 18px;*/
+  /* line-height: 1.5; */
+  
+  color: var(--color-text);
+  background-color: var(--color-light);
 }
 
 h1,
@@ -27,6 +40,12 @@ blockquote {
 
 a {
   color: inherit;
+  /* height: 100%; */
+}
+
+article {
+  height: 100%;
+  position: relative;
 }
 
 img {
@@ -36,3 +55,13 @@ img {
 button {
   font: inherit;
 }
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+
+}
+
